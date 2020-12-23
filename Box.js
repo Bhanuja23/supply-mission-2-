@@ -1,9 +1,7 @@
 class  Box {
     constructor(x,y,w,h){
         var options ={
-            restitution:0.8,
-            friction:1,
-            density:1
+          isStaic:true
         }
         this.body = Bodies.rectangle(x,y,w,h,options)
         this.width=w
